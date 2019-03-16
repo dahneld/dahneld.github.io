@@ -75,10 +75,21 @@ body {
 }
 
 @media only screen
-and (min-device-width : 375px)
-and (max-device-width : 812px) {
-  #name {
-    font-size: 1.5em;
-    font-weight: 500;
-  }
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #name {
+      font-size: 1.5em;
+      font-weight: 500;
+    }
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    #name {
+      font-size: 1.5em;
+      font-weight: 500;
+    }
 }
