@@ -70,8 +70,6 @@ body {
   color: #111111;
   padding: 20px 0;
   text-align: center;
-  width: 60%;
-  margin: 0 20%;
 }
 
 #message {
@@ -86,8 +84,7 @@ body {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
     #name {font-size: 1.5em; padding: 15px 0 10px 0;}
-    #message {font-size: 1.15em;};
-
+    #message {font-size: 1.15em; width: 100%;}
 }
 
 @media only screen
@@ -95,5 +92,5 @@ body {
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
     #name {font-size: 1.5em; padding: 15px 0 10px 0;}
-    #message {font-size: 1.15em;};
+    #message {font-size: 1.15em; width: 100%;}
 }
