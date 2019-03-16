@@ -85,7 +85,6 @@ body {
   and (-webkit-min-device-pixel-ratio: 2) {
     #name {font-size: 1.5em; padding: 15px 0 10px 0;}
     #message {font-size: 1.15em; width: 100%;}
-    #message hr {width: 60%}
 }
 
 @media only screen
