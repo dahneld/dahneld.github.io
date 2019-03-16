@@ -80,7 +80,6 @@ body {
   and (-webkit-min-device-pixel-ratio: 2) {
     #name {
       font-size: 1.5em;
-      font-weight: 500;
     }
 }
 
@@ -90,6 +89,5 @@ body {
   and (-webkit-min-device-pixel-ratio: 3) {
     #name {
       font-size: 1.5em;
-      font-weight: 500;
     }
 }
