@@ -62,3 +62,31 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
+#name {
+  font-size: 2em;
+  color: #888888;
+  padding-top: 20px;
+  width: 80%;
+  border: 1px  solid #000000;
+}
+
+#name {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  color: #111111;
+  padding: 20px 0;
+  text-align: center;
+  width: 60%;
+  margin: 0 20%;
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px) {
+  #name {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}
