@@ -65,14 +65,6 @@ body {
 
 #name {
   font-size: 2em;
-  color: #888888;
-  padding-top: 20px;
-  width: 80%;
-  border: 1px  solid #000000;
-}
-
-#name {
-  font-size: 2em;
   font-weight: 700;
   text-align: center;
   color: #111111;
